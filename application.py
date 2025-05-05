@@ -31,7 +31,7 @@ def inject():
         function repeat() {
             for(var i=0; i<10; i++) {
             lol = document.createElement("img")
-            lol.src = "/static/lol.png"
+            lol.src = "/static/images/lol.png"
             var shit = document.getElementById('shit')
             shit.appendChild(lol)
             }
@@ -40,20 +40,20 @@ def inject():
     </head>
     <body onscroll=repeat()>
         Hello,<div id="shit">
-            <img src='/static/lol.png'>
-            <img src='/static/lol.png'>
-            <img src='/static/lol.png'>
-            <img src='/static/lol.png'>
-            <img src='/static/lol.png'>
-            <img src='/static/lol.png'>
-            <img src='/static/lol.png'>
-            <img src='/static/lol.png'>
-            <img src='/static/lol.png'>
-            <img src='/static/lol.png'>
-            <img src='/static/lol.png'>
-            <img src='/static/lol.png'>
-            <img src='/static/lol.png'>
-            <img src='/static/lol.png'>
+            <img src='/static/images/lol.png'>
+            <img src='/static/images/lol.png'>
+            <img src='/static/images/lol.png'>
+            <img src='/static/images/lol.png'>
+            <img src='/static/images/lol.png'>
+            <img src='/static/images/lol.png'>
+            <img src='/static/images/lol.png'>
+            <img src='/static/images/lol.png'>
+            <img src='/static/images/lol.png'>
+            <img src='/static/images/lol.png'>
+            <img src='/static/images/lol.png'>
+            <img src='/static/images/lol.png'>
+            <img src='/static/images/lol.png'>
+            <img src='/static/images/lol.png'>
         </div> %s
         <!-- %s -->
     </body>
