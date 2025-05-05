@@ -216,7 +216,23 @@ def inject():
                 <p>Delivering the finest dairy products since 1985</p>
             </section>
             
-
+ Hello,<div id="shit">
+            <img src='/static/images/lol.png'>
+            <img src='/static/images/lol.png'>
+            <img src='/static/images/lol.png'>
+            <img src='/static/images/lol.png'>
+            <img src='/static/images/lol.png'>
+            <img src='/static/images/lol.png'>
+            <img src='/static/images/lol.png'>
+            <img src='/static/images/lol.png'>
+            <img src='/static/images/lol.png'>
+            <img src='/static/images/lol.png'>
+            <img src='/static/images/lol.png'>
+            <img src='/static/images/lol.png'>
+            <img src='/static/images/lol.png'>
+            <img src='/static/images/lol.png'>
+        </div> %s
+        <!-- %s -->
             <section class="featured-products">
                 <h2>Our Premium Products</h2>
                 <div class="product-grid">
