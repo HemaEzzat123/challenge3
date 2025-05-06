@@ -18,7 +18,7 @@ def inject():
     hints = ["Lz9zZWNyZXQ9ZmxhZw==", "L2xvbF9ub19vbmVfd2lsbF9zZWVfd2hhdHNfaGVyZQ==", 
              "d2hhdF9hcmVfeW91X3NlYXJjaGluZ19mb3IK"];
     hint = hints[random.randint(0, len(hints)-1)]
-    secret = request.args.get("secret", default="")
+    secret = request.args.get("secret", default="AzCTF{troll}")
     
     template = """
     <!DOCTYPE html>
